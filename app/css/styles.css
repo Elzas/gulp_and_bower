@@ -1,0 +1,6 @@
+body {
+  font-size: 14px;
+  background-color: #ccc;
+  -webkit-transition: -webkit-transform 1s;
+          transition: transform 1s;
+}

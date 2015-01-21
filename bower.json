@@ -1,0 +1,25 @@
+{
+  "name": "Project 1",
+  "version": "0.1.0",
+  "authors": [
+    "Elzas <elzas.89@mail.ru>"
+  ],
+  "dependencies": {
+    "jquery": "1.11.2",
+    "bxslider": "latest",
+    "jquery-mousewheel": "~3.1.12",
+    "simple-select": "*",
+    "jScrollPane": "~2.0.20",
+    "normalize.css": "~3.0.2"
+  },
+  "description": "ДЗ 2 Элина",
+  "main": "app/index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
