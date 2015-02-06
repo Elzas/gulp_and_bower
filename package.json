@@ -5,6 +5,11 @@
   "versoin": "0.1.0",
   "main": "dist/index.html",
   "license": "ISC",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/Elzas/gulp_and_bower.git"
+  },
+
   "devDependencies": {
     "clean": "^4.0.1",
     "gulp": "^3.8.10",

@@ -72,8 +72,6 @@ gulp.task('build', function () {
     var assets = useref.assets();
     return gulp.src('app/*.html')
         .pipe(assets)
-        .pipe(gulpif('*.js'))
-        .pipe(gulpif('*.css'))
         .pipe(assets.restore())
         .pipe(useref())
         .pipe(gulp.dest('dist'));
@@ -93,4 +91,4 @@ gulp.task('watch', function () {
 });
 
 // Default
-gulp.task('default', ['connect', 'watch']);
+gulp.task('default', ['connect', 'watch', 'wiredep']);
